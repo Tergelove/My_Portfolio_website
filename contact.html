@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6c4e4c3b5f.js" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="about.html">
+    <title>Contact | programmist</title>
+
+    <body>
+        <!-- Header -->
+        <header id="header-inner">
+            <div class="container">
+                <nav id="main-nav">
+                    <img src="img/logo.png" alt="My portofolio" id="logo">
+                    <ul>
+                        <li><a href="index.html">Start</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html" >Works</a></li>
+                        <li><a href="contact.html" class="current">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Section A: contract form -->
+        <section id="contact-a" class="text-center py-3">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="bottom-line"></div>
+                <p class="lead">Here you can contact us</p>
+                <!-- end form dotr action herggui, programchlliin held ashiglaj ajilladg bolghgui -->
+                <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <div class="text-fields">
+                        <input type="text" class="text-input name-input" placeholder="Name" name="name">
+                        <input type="text" class="text-input subject-input" placeholder="Title" name="subject">
+                        <input type="email" class="text-input email-input" placeholder="Email" name="email">
+                        <input type="text" class="text-input phone-input" placeholder="Phone number" name="phone">
+                        <textarea type="text" class="text-input message-input" placeholder="Write your inquire..." name="message"></textarea>
+                        <div class="my-2">
+                            <!-- bi robot bishee gdg rechapcha hj ugch bn dood taliin div bl -->
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-dark">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Section B: contact info -->
+        <section id="contact-b" class="bg-dark py-3">
+            <div class="container">
+                <div class="contact-info">
+                    <div>
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <h3>Email</h3>
+                        <p>tergel@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone fa-2x"></i>
+                        <h3>Phone</h3>
+                        <p>0676923686</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-id-card fa-2x"></i>
+                        <h3>Address</h3>
+                        <p>Doningasse 20/8 1220 Vienna</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section C -->
+        <section id="contact-c" class="bg-main py-4">
+            <div class="container">
+            <h1 class="text-center">Start your new project</h1>
+        </div>
+        </section>
+        <!-- Footer -->
+        <footer id="main-footer">
+           <div class="footer-content container">
+            <p>Copy Right &copy; 2023. All  Rights Reserved</p>
+            <div class="social">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+           </div>
+        </footer>
+    </body>
+</html>
+
+<!-- main scss gesn filel dotr color gesn variable zarlaad, terniihe tuslamjtaigaar bodydoo bg tavisn. Tegnguut node-sass maani ajillaad uuruu compile hgd scss dotr main.scss gesn file uusgej uguud dotr n bidnii usgesn codeiig compliedaad hiisn bn -->
